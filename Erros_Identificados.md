@@ -1,12 +1,12 @@
 # Erros Identificados
 
-## 📋 Introdução
+##  Introdução
 
 Durante a análise do projeto, foram identificados três categorias principais de erros que afetavam o funcionamento do sistema. Este documento registra cada tipo de erro encontrado, sua causa e impacto.
 
 ---
 
-## 1️⃣ Erros de Sintaxe
+## 1️ Erros de Sintaxe
 
 Os erros de sintaxe foram os mais fáceis de identificar, porque **impedem a execução do código**. Em alguns momentos aconteceram erros relacionados à escrita incorreta dos comandos em Python.
 
@@ -65,7 +65,7 @@ print(Nome)  # Variável com 'N' maiúsculo
 
 ---
 
-## 2️⃣ Erros de Lógica
+## 2️ Erros de Lógica
 
 Os erros de lógica são mais difíceis de perceber porque **o código executa normalmente, mas apresenta resultados errados**. Esses erros podem causar consequências graves, pois o sistema funcionará sem avisar sobre o problema.
 
@@ -136,7 +136,7 @@ print(f"Nome: {idade}, Idade: {usuario}")  # Variáveis trocadas!
 
 ---
 
-## 3️⃣ Erros de Execução
+## 3️ Erros de Execução
 
 Os erros de execução acontecem durante a execução do programa, geralmente quando o usuário insere dados inesperados ou inválidos.
 
@@ -221,13 +221,13 @@ IndexError: list index out of range
 
 ---
 
-## 📊 Resumo dos Erros
+##  Resumo dos Erros
 
 | Tipo | Fácil Identificar? | Impacto | Solução |
 |------|-------------------|--------|----------|
-| **Sintaxe** | ✅ Sim | Impede execução | Corrigir escrita |
-| **Lógica** | ❌ Não | Resultados errados | Revisar algoritmo |
-| **Execução** | ❌ Não (até testar) | Travamento | Usar try/except |
+| **Sintaxe** |  Sim | Impede execução | Corrigir escrita |
+| **Lógica** |  Não | Resultados errados | Revisar algoritmo |
+| **Execução** |  Não (até testar) | Travamento | Usar try/except |
 
 ---
 
